@@ -76,3 +76,11 @@ resource "aws_route_table_association" "Private" {
   subnet_id      = aws_subnet.Private.id
   route_table_id = aws_route_table.privatetable.id
 }
+resource "aws_s3_bucket" "bucket" {
+  bucket = "amulubucket"
+  
+  tags = {
+    Environment = "Dev"
+    Name        = "amulu"
+  }
+}

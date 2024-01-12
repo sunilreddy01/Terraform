@@ -11,6 +11,7 @@ provider "aws" {
   region= "us-east-1"
 }
 
+
 terraform {
   backend "s3" {
     bucket         = "amulubucket"  # Replace with your S3 bucket name
@@ -19,4 +20,3 @@ terraform {
     encrypt        = true                           # Enable server-side encryption for the state file
     }
 }
-

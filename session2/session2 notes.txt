@@ -1,0 +1,26 @@
+                         Session2 Notes
+ -----------------------------------------------------------------------
+ 
+ 3 Tier Architecture
+ 
+ 
+ project infra
+ ------------------------
+ VPC
+ Subnests(depends on vpc)
+ routes
+ internet gateway= Network connection
+ 
+ nat gateway(it depends on elastic ip)
+ 
+Benfits : This is called cost optimusing
+
+
+I switch off all the instaces and RDS for Development infra
+
+at 7pm 
+
+0n at 7 am
+
+
+
